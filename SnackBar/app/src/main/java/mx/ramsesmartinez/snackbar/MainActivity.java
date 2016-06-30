@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         snackbar.setActionTextColor(ContextCompat.getColor(getApplicationContext(), R.color.icons));
         View snackBarView = snackbar.getView();
         //BACKGROUND
-        snackBarView.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.accent));
+        snackBarView.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.primary_dark));
         //MESSAGE
         TextView tv = (TextView) snackBarView.findViewById(android.support.design.R.id.snackbar_text);
         tv.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.icons));
